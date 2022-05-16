@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             Fragment selectedFragment = null;
             switch (item.getItemId()) {
-                case R.id.nav_home:
+                case R.id.nav_category:
                     selectedFragment = new HomeFragment();
                     break;
 
-                case R.id.nav_favorites:
+                case R.id.nav_search:
                     selectedFragment = new FavoritesFragment();
                     break;
-                case R.id.nav_search:
+                case R.id.nav_home:
                     selectedFragment = new SearchFragment();
                     break;
             }
