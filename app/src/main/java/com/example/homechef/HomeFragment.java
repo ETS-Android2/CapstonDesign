@@ -80,14 +80,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         myrv.setLayoutManager(new GridLayoutManager(getActivity(), 2));
         getRandomRecipes();
         searchTv = RootView.findViewById(R.id.home_search_et);
-        searchBtn = RootView.findViewById(R.id.home_search_btn);
-        breakfastBtn= RootView.findViewById(R.id.home_breakfast_filter);
-        lunchBtn= RootView.findViewById(R.id.home_lunch_filter);
-        dinnerBtn= RootView.findViewById(R.id.home_dinner_filter);
-        breakfastBtn.setOnClickListener(this);
-        lunchBtn.setOnClickListener(this);
-        dinnerBtn.setOnClickListener(this);
-        searchBtn.setOnClickListener(this);
+//        searchBtn = RootView.findViewById(R.id.home_search_btn);
+//        breakfastBtn= RootView.findViewById(R.id.home_breakfast_filter);
+//        lunchBtn= RootView.findViewById(R.id.home_lunch_filter);
+//        dinnerBtn= RootView.findViewById(R.id.home_dinner_filter);
+//        breakfastBtn.setOnClickListener(this);
+//        lunchBtn.setOnClickListener(this);
+//        dinnerBtn.setOnClickListener(this);
+//        searchBtn.setOnClickListener(this);
         searchTv.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
@@ -230,15 +230,15 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         super.onCreateOptionsMenu(menu, inflater);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.main_log_out) {
-            FirebaseAuth.getInstance().signOut();
-            sendToLogin();
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        int id = item.getItemId();
+//        if (id == R.id.main_log_out) {
+//            FirebaseAuth.getInstance().signOut();
+//            sendToLogin();
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
 
     private void sendToLogin() {

@@ -5,6 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/home_search_btn2"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:contentDescription="@string/search_your_recipes"
+        android:paddingBottom="10dp"
+        android:src="@drawable/ic_search" />
+
+    <EditText
+        android:id="@+id/home_search_et2"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:backgroundTint="#00FFFFFF"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="@string/search_your_recipes"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
@@ -69,13 +93,18 @@
 
     <ImageView
         android:id="@+id/recipe_img_id5"
-        android:layout_width="414dp"
-        android:layout_height="89dp"
+        android:layout_width="781dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="642dp"
         android:background="#000000"
         android:contentDescription="@string/img_of_recipe"
         android:scaleType="centerCrop"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/applicationName3"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/applicationName3"

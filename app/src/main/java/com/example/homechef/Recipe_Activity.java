@@ -138,7 +138,7 @@ public class Recipe_Activity extends AppCompatActivity {
                                 Picasso.get().load((String) response.get("image")).into(img);
                             }
                             catch (Exception e){
-                                img.setImageResource(R.drawable.nopicture);
+                                img.setImageResource(R.drawable.logo_white);
                             }
                             title.setText((String) response.get("title"));
                             ready_in.setText(Integer.toString((Integer) response.get("readyInMinutes")));

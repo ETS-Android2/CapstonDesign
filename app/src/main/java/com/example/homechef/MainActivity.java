@@ -55,14 +55,19 @@ public class MainActivity extends AppCompatActivity {
             Fragment selectedFragment = null;
             switch (item.getItemId()) {
                 case R.id.nav_category:
+                    selectedFragment = new SearchFragment();
+                    break;
+
+                case R.id.nav_home:
                     selectedFragment = new HomeFragment();
                     break;
 
                 case R.id.nav_search:
-                    selectedFragment = new FavoritesFragment();
+                    selectedFragment = new SearchReceipt();
                     break;
-                case R.id.nav_home:
-                    selectedFragment = new SearchFragment();
+
+                case R.id.nav_favorite:
+                    selectedFragment = new FavoritesFragment();
                     break;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();

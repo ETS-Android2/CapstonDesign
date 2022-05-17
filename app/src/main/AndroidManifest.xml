@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SearchResultsActivity"></activity>
-        <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
+<!--        <activity android:name=".ResetPasswordActivity" />-->
+<!--        <activity android:name=".RegisterActivity" />-->
+<!--        <activity android:name=".LoginActivity" />-->
         <activity android:name=".Recipe_Activity" />
 
         <activity android:name=".MainActivity">

@@ -42,7 +42,7 @@ public class RecyclerViewAdapterFavorites extends RecyclerView.Adapter<RecyclerV
     public void onBindViewHolder(RecyclerViewAdapterFavorites.MyViewHolder holder, final int position) {
         holder.tv_recipe_title.setText(mData.get(position).getTitle());
         if (mData.get(position).getThumbnail().isEmpty()) {
-            holder.img_recipe_thumbnail.setImageResource(R.drawable.nopicture);
+            holder.img_recipe_thumbnail.setImageResource(R.drawable.logo_white);
         } else{
             Picasso.get().load(mData.get(position).getThumbnail()).into(holder.img_recipe_thumbnail);
         }

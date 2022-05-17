@@ -118,15 +118,15 @@ public class SearchFragment extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.main_log_out) {
-            FirebaseAuth.getInstance().signOut();
-            sendToLogin();
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        int id = item.getItemId();
+//        if (id == R.id.main_log_out) {
+//            FirebaseAuth.getInstance().signOut();
+//            sendToLogin();
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
 
     private void sendToLogin() {

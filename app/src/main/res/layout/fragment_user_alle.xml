@@ -11,18 +11,16 @@
         android:id="@+id/allergyInfo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="*식품의약품안전처 가이드라인에 따른 알레르기 유발물질 21종"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/allergyInfo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="** 알레르기 유발 물질을 체크해주세요!"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:stretchColumns="1,3,5"
         app:layout_constraintHorizontal_bias="1.0"
@@ -92,7 +90,6 @@
                 android:gravity="center"
                 android:text="대두" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -144,7 +141,6 @@
                 android:gravity="center"
                 android:text="복숭아" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -196,7 +192,6 @@
                 android:gravity="center"
                 android:text="난류(가금류)" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -248,7 +243,6 @@
                 android:gravity="center"
                 android:text="쇠고기" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -300,7 +294,6 @@
                 android:gravity="center"
                 android:text="홍합" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -352,7 +345,6 @@
                 android:gravity="center"
                 android:text="조개류" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -406,5 +398,4 @@
         </TableRow>
 
     </TableLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,18 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/btn_design.xml" value="0.2975" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/circular_border_shape.xml" value="0.2975" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.2975" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/ic_exit_to_app.xml" value="0.2975" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/ic_favorite_black_24dp.xml" value="0.2975" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/ic_favorite_border_black_24dp.xml" value="0.2975" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/drawable/ic_home.xml" value="0.2975" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/activity_login.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/activity_main.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/activity_recipe_.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/activity_register.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/activity_reset_password.xml" value="0.35688405797101447" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/activity_search_results.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/cardview_item_favorite.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/cardview_item_ingredient.xml" value="0.35688405797101447" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/cardview_item_recipe.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/cardview_item_search_result.xml" value="0.35688405797101447" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/category.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/favorite.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_favorites.xml" value="0.35688405797101447" />
-        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_home.xml" value="0.35688405797101447" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_home2.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_search.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_user_alle.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_user_info.xml" value="0.35688405797101447" />
@@ -22,7 +32,9 @@
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/fragment_user_vege.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/item_ingredient.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/main.xml" value="0.35688405797101447" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/layout/search2.xml" value="0.35688405797101447" />
         <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/lee/University/Capston/CapstonDesign/app/src/main/res/menu/log_out.xml" value="0.36614583333333334" />
         <entry key="..\:/lee/University/Capston/Home-Chef/app/src/main/res/drawable/btn_design.xml" value="0.2975" />
         <entry key="..\:/lee/University/Capston/Home-Chef/app/src/main/res/drawable/circular_border_shape.xml" value="0.2975" />
         <entry key="..\:/lee/University/Capston/Home-Chef/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.2975" />

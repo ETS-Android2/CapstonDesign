@@ -56,10 +56,10 @@ public class FavoritesFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         final View RootView = inflater.inflate(R.layout.fragment_favorites, container, false);
-        Toolbar mToolbarContact = RootView.findViewById(R.id.toolbar_favorites);
+//        Toolbar mToolbarContact = RootView.findViewById(R.id.toolbar_favorites);
         progressBar = RootView.findViewById(R.id.progressbar);
         emptyView= RootView.findViewById(R.id.empty_view);
-        ((AppCompatActivity) Objects.requireNonNull(getActivity())).setSupportActionBar(mToolbarContact);
+//        ((AppCompatActivity) Objects.requireNonNull(getActivity())).setSupportActionBar(mToolbarContact);
         getFavorites(RootView);
         return RootView;
     }
@@ -106,15 +106,15 @@ public class FavoritesFragment extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.main_log_out) {
-            FirebaseAuth.getInstance().signOut();
-            sendToLogin();
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        int id = item.getItemId();
+//        if (id == R.id.main_log_out) {
+//            FirebaseAuth.getInstance().signOut();
+//            sendToLogin();
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
 
     private void sendToLogin() {

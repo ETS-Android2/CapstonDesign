@@ -11,12 +11,13 @@
         android:id="@+id/toolbar_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="#000000"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:menu="@menu/log_out"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="3dp">
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_height="100dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,15 +25,20 @@
             android:layout_margin="15dp">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="349dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_marginEnd="15dp"
                 android:fontFamily="cursive"
-                android:text="@string/choose_your_ingridents"
+                android:text="CookingApp"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="35sp"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.507" />
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 

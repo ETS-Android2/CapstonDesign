@@ -2,156 +2,170 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layoutDirection="ltr"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="210dp"
-        android:background="@color/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        app:cardElevation="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/log_out"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="353dp"
-                android:layout_height="80dp"
-                android:layout_marginTop="7dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/logo_white"
-                android:contentDescription="@string/logo" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="cursive"
-                android:text="@string/search_over"
-                android:textColor="#FFFFFF"
-                android:textSize="26sp"
-                app:layout_constraintBottom_toTopOf="@+id/textView3"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.579"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="cursive"
-                android:text="@string/_360_000_recipes"
-                android:textColor="@android:color/white"
-                android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.594"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardSearch"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="20dp"
-                app:cardBackgroundColor="@color/colorPrimaryDark"
-                app:cardCornerRadius="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3"
-                app:layout_constraintVertical_bias="0.692">
-
-                <ImageButton
-                    android:id="@+id/home_search_btn"
-                    style="?android:buttonBarButtonStyle"
-                    android:layout_width="42dp"
-                    android:layout_height="44dp"
-                    android:contentDescription="@string/search_your_recipes"
-                    android:paddingBottom="10dp"
-                    android:src="@drawable/ic_search" />
-
-                <EditText
-                    android:id="@+id/home_search_et"
-                    android:layout_width="217dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:autofillHints=""
-                    android:backgroundTint="#00FFFFFF"
-                    android:drawablePadding="10dp"
-                    android:gravity="center_vertical"
-                    android:hint="@string/search_your_recipes"
-                    android:inputType="textAutoComplete"
-                    android:imeOptions="actionSearch"
-                    android:padding="10dp"
-                    android:textColor="#FFFFFF"
-                    android:textColorHint="#FFFFFF" />
-
-            </androidx.cardview.widget.CardView>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.appcompat.widget.Toolbar>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="105dp" >
 
-        <Button
-            android:id="@+id/home_breakfast_filter"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_margin="10dp"
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="@drawable/btn_design"
-            android:text="@string/breakfast"
-            android:textColor="@android:color/white" />
+            android:background="#232323"
+            android:minHeight="?attr/actionBarSize"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/home_lunch_filter"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/btn_design"
-            android:text="@string/lunch"
-            android:textColor="@android:color/white" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/home_dinner_filter"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/btn_design"
-            android:text="@string/dinner"
-            android:textColor="@android:color/white" />
 
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="259dp"
+                    android:layout_height="77dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="cursive"
+                    android:text="CookingApp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="60sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.507" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true">
+        android:layout_height="139dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar9"
+            android:layout_width="330dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#232323"
+            android:minHeight="?attr/actionBarSize"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="190dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="16dp"
+                    android:text="오늘의 TIP"
+                    android:textColor="#FFCD4A"
+                    android:textSize="22dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:layout_centerInParent="false">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="10dp"
+            tools:layout_editor_absoluteX="-25dp"
+            tools:layout_editor_absoluteY="554dp">
+
+            <ImageButton
+                android:id="@+id/home_search_btn"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="42dp"
+                android:layout_height="44dp"
+                android:contentDescription="@string/search_your_recipes"
+                android:paddingBottom="10dp"
+                android:src="@drawable/ic_search" />
+
+            <EditText
+                android:id="@+id/home_search_et"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:autofillHints=""
+                android:backgroundTint="#00FFFFFF"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/search_your_recipes"
+                android:imeOptions="actionSearch"
+                android:inputType="textAutoComplete"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar6"
+            android:layout_width="330dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="55dp"
+            android:background="#232323"
+            android:minHeight="?attr/actionBarSize"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="190dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="16dp"
+                    android:text="추천 메뉴"
+                    android:textColor="#FFCD4A"
+                    android:textSize="22dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
 
         <ProgressBar
             android:id="@+id/progressbar2"
@@ -161,26 +175,25 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="344dp"
+            android:layout_height="326dp"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="100dp"
             android:layout_marginEnd="15dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="1dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/empty_view2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="44dp"
+            android:layout_height="77dp"
             android:gravity="center"
-            android:visibility="gone"
-            android:text="@string/no_results_found" />
+            android:text="@string/no_results_found"
+            android:visibility="gone" />
 
     </RelativeLayout>
-
 
 
 </LinearLayout>
